@@ -102,19 +102,25 @@ def Decrypt(cipher_text, key):
 
 通过筛选，我们选择使用简单轻便的tkinter作为UI显示交互的框架。具体交互界面如下图所示（代码实现见UI.py）
 
-![image1](./images/image1.png)
+![image1](https://github.com/Zonalear/S_AES/assets/100207608/b9edc24f-d5dd-4f8e-8066-4ef8750565c5)
+
 
 我们用 明文= 0110111101101011 ；密钥= 1010011100111011 进行加密
 
-![image2](./images/image2.png)
+![image2](https://github.com/Zonalear/S_AES/assets/100207608/77b438cc-bdee-422c-8901-16d2e96c5a3e)
+
 
 得到密文= 0000011100111000，反之进行解密同样可得到明文。
 
-![image-20231021164327011](./images/image-20231021164327011.png)
+![image3](https://github.com/Zonalear/S_AES/assets/100207608/878cc8e1-8c68-461b-96ee-fdbc5a9e7933)
 
 ### 第二关：交叉测试
 
 已与其他队进行同密钥和明文测试（与第一关相同），两边具有相同加密后的密文。
+
+![image4](https://github.com/Zonalear/S_AES/assets/100207608/b73ff969-aac6-4bb2-b7a5-6e7b632db937)
+
+![image5](https://github.com/Zonalear/S_AES/assets/100207608/ff58eb34-3175-4322-92b9-845a1ad09663)
 
 ### 第三关：多重加密
 
@@ -122,7 +128,8 @@ def Decrypt(cipher_text, key):
 
 我们以明文= 12345678， 密文= 1010011100111011，进行加密（加密代码见extend_function.py），UI界面如下
 
-![image-20231021165532203](./images/image-20231021165532203.png)
+![image6](https://github.com/Zonalear/S_AES/assets/100207608/84890b3e-0c3b-4b56-ac74-2dd9dda9b111)
+
 
 ### 第四关：多重加密
 
