@@ -122,7 +122,7 @@ def Decrypt(cipher_text, key):
 
 ![image5](https://github.com/Zonalear/S_AES/assets/100207608/ff58eb34-3175-4322-92b9-845a1ad09663)
 
-### 第三关：多重加密
+### 第三关：扩展功能
 
 当前要求以ASII编码字符串(分组为2 Bytes)，对应地输出也可以是ACII字符串(很可能是乱码)。
 
